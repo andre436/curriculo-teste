@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--Desenvolvido por Andre Rodrigues
+Data 09-11-2024-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - André Rodrigues</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <h1 class="title">Currículo - André Rodrigues</h1>
+        
+        <!-- Deck de Cards -->
+        <div class="card-deck d-flex flex-wrap justify-content-center">
+            <div class="card-container" onclick="toggleCard(this)">
+                <div class="card futurist-card front-face">
+                    <h5 class="card-title"><i class="fas fa-envelope"></i> Contato 📞</h5>
+                </div>
+                <div class="card futurist-card back-face">
+                    <h3>Contato</h3>
+                    <p>Email: <a href="mailto:andrerdeus087@gmail.com">andrerdeus087@gmail.com</a></p>
+                    <p>Telefone: (31) 99205-1436</p>
+                    <p>Localização: Durval de Barros, Ibirité</p>
+                </div>
+            </div>
+
+            <div class="card-container" onclick="toggleCard(this)">
+                <div class="card futurist-card front-face">
+                    <h5 class="card-title"><i class="fas fa-industry"></i> Experiência 🛠️</h5>
+                </div>
+                <div class="card futurist-card back-face">
+                    <h3>Experiência</h3>
+                    <p><strong>Trabalho em equipe</strong> em ambientes multidisciplinares</p>
+                    <p><strong>Automação industrial</strong> e design 3D</p>
+                    <p><strong>Manutenção preventiva e corretiva</strong></p>
+                    <p><strong>Tomada de decisões</strong> sob pressão</p>
+                </div>
+            </div>
+
+            <div class="card-container" onclick="toggleCard(this)">
+                <div class="card futurist-card front-face">
+                    <h5 class="card-title"><i class="fas fa-briefcase"></i> Experiência de Trabalho 💼</h5>
+                </div>
+                <div class="card futurist-card back-face">
+                    <h3>Experiência de Trabalho</h3>
+                    <div class="scrollable-content">
+                        <p><strong>A.R Comunicação Visual</strong> (Contrato)</p>
+                        <p>Fev 2019 – Atualmente</p>
+                        <p>Designer e Projetista 3D - Desenvolvimento de fachadas e projetos de comunicação visual.</p>
+                        <hr>
+                        <p><strong>Mills</strong> (CLT)</p>
+                        <p>Ago 2022 - Jan 2023</p>
+                        <p>Auxiliar de Manutenção - Manutenção de plataformas elevatórias, controle de estoque e criação de planilhas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container" onclick="toggleCard(this)">
+                <div class="card futurist-card front-face">
+                    <h5 class="card-title"><i class="fas fa-brain"></i> Habilidades 🤖</h5>
+                </div>
+                <div class="card futurist-card back-face">
+                    <h3>Habilidades</h3>
+                    <p>Estudante de Big Data e Inteligência Analítica pela Uniasselvi</p>
+                    <p>Experiência prática em design 3D e manutenção industrial</p>
+                </div>
+            </div>
+
+            <div class="card-container" onclick="toggleCard(this)">
+                <div class="card futurist-card front-face">
+                    <h5 class="card-title"><i class="fas fa-graduation-cap"></i> Formação 🎓</h5>
+                </div>
+                <div class="card futurist-card back-face">
+                    <h3>Formação</h3>
+                    <p><strong>Técnico em Cibersistemas para Automação</strong> - SENAI Centro 4.0</p>
+                    <p><strong>Analista de Dados</strong> - Uniasselvi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
