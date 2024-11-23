@@ -1,5 +1,5 @@
 /* Estilo Geral */
-body {
+body {  
     font-family: Arial, sans-serif;
     background-color: #0f0f0f;
     color: #d4d4d4;
@@ -9,6 +9,33 @@ body {
     font-size: 2.5rem;
     color: #ffffff;
     margin-bottom: 40px;
+}
+
+/* Botão de Download */
+.download-btn-container {
+    margin-bottom: 30px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-btn i {
+    margin-right: 10px;
+}
+
+.download-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5);
+    background-color: #0056b3;
 }
 
 /* Card Container */
